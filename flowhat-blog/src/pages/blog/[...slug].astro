@@ -20,7 +20,7 @@ const post = Astro.props;
 const { Content } = await render(post);
 const posts = await getCollection('blog');
 const group = post.data.translationGroup;
-const languageOrder = ['en', 'ko', 'zh'];
+const languageOrder = ['en', 'zh', 'ko'];
 const languageLabels: Record<string, string> = { en: 'EN', ko: 'KO', zh: 'ZH' };
 const siblings = group ? posts.filter((item) => item.data.translationGroup === group) : [post];
 const currentLang = post.data.lang ?? 'en';
