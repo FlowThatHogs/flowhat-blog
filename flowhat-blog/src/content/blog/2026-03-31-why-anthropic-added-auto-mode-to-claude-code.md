@@ -5,6 +5,7 @@ pubDate: 2026-03-31
 updatedDate: 2026-04-13
 lang: en
 translationGroup: why-anthropic-added-auto-mode-to-claude-code
+baseSlug: 2026-03-31-why-anthropic-added-auto-mode-to-claude-code
 tags:
   - anthropic
   - claude-code
