@@ -3,6 +3,8 @@ title: "Why Anthropic Added Auto Mode to Claude Code"
 description: "Anthropic's Auto Mode matters because coding agents are now competing on autonomy controls, approval design, and harness quality, not just raw model ability."
 pubDate: 2026-03-31
 updatedDate: 2026-04-13
+lang: en
+translationGroup: why-anthropic-added-auto-mode-to-claude-code
 tags:
   - anthropic
   - claude-code
