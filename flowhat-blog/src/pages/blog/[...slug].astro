@@ -18,8 +18,27 @@ type Props = CollectionEntry<'blog'>;
 
 const post = Astro.props;
 const { Content } = await render(post);
+const posts = await getCollection('blog');
+const group = post.data.translationGroup;
+const languageOrder = ['en', 'ko', 'zh'];
+const languageLabels: Record<string, string> = { en: 'EN', ko: 'KO', zh: 'ZH' };
+const siblings = group ? posts.filter((item) => item.data.translationGroup === group) : [post];
+const currentLang = post.data.lang ?? 'en';
+const baseSlug = post.data.baseSlug ?? post.id;
+const languageLinks = languageOrder
+	.filter((lang) => siblings.some((item) => (item.data.lang ?? 'en') === lang))
+	.map((lang) => ({
+		lang,
+		label: languageLabels[lang] ?? lang.toUpperCase(),
+		href:
+			lang === currentLang
+				? ''
+				: lang === 'en'
+					? `/blog/${baseSlug}/`
+					: `/blog/${baseSlug}/${lang}/`,
+	}));
 ---
 
-<BlogPost {...post.data}>
+<BlogPost {...post.data} languageLinks={languageLinks}>
 	<Content />
 </BlogPost>

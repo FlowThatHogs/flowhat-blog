@@ -25,8 +25,6 @@ Coding-agent products are no longer competing only on raw model ability. They ar
 
 That is what makes this update worth paying attention to.
 
-> Korean version: [/blog/2026-03-31-why-anthropic-added-auto-mode-to-claude-code/ko/](/blog/2026-03-31-why-anthropic-added-auto-mode-to-claude-code/ko/)
-
 ## Background
 
 Anthropic says Claude Code users approve most permission prompts anyway. In its writeup, the company says users approve 93% of them. That means the manual approval layer still exists, but its value has already weakened in practice.
