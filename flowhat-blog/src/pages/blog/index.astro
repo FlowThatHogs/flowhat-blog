@@ -7,9 +7,24 @@ import FormattedDate from '../../components/FormattedDate.astro';
 import Header from '../../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
 
-const posts = (await getCollection('blog'))
-	.filter((post) => (post.data.lang ?? 'en') === 'en')
-	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const allPosts = (await getCollection('blog')).sort(
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+const posts = allPosts.filter((post) => (post.data.lang ?? 'en') === 'en');
+const languageOrder = ['en', 'zh', 'ko'];
+const languageLabels = { en: 'EN', zh: 'ZH', ko: 'KO' };
+const postsByLanguage = {
+	en: allPosts.filter((post) => (post.data.lang ?? 'en') === 'en'),
+	zh: allPosts.filter((post) => (post.data.lang ?? 'en') === 'zh'),
+	ko: allPosts.filter((post) => (post.data.lang ?? 'en') === 'ko'),
+};
+const translationMap = new Map();
+for (const post of allPosts) {
+	const key = post.data.translationGroup ?? post.data.baseSlug ?? post.id;
+	const existing = translationMap.get(key) ?? [];
+	existing.push(post);
+	translationMap.set(key, existing);
+}
 ---
 
 <!doctype html>
@@ -19,6 +34,54 @@ const posts = (await getCollection('blog'))
 		<style>
 			main {
 				width: 960px;
+			}
+			.language-windows {
+				display: grid;
+				grid-template-columns: repeat(3, 1fr);
+				gap: 1rem;
+				margin: 0 0 2rem 0;
+			}
+			.language-window {
+				border: 1px solid rgb(var(--gray-light));
+				border-radius: 16px;
+				padding: 1rem;
+				background: white;
+			}
+			.language-window h3 {
+				margin: 0 0 0.75rem 0;
+				font-size: 1rem;
+			}
+			.language-window ul {
+				display: flex;
+				flex-direction: column;
+				gap: 0.5rem;
+			}
+			.language-window li,
+			.language-window li:first-child {
+				width: 100%;
+				margin: 0;
+				text-align: left;
+			}
+			.language-window a {
+				text-decoration: none;
+				color: rgb(var(--black));
+			}
+			.language-window a:hover {
+				color: rgb(var(--accent));
+			}
+			.language-badges {
+				display: flex;
+				gap: 0.35rem;
+				margin: 0.45rem 0 0.2rem 0;
+				flex-wrap: wrap;
+			}
+			.language-badges span {
+				font-size: 0.78rem;
+				padding: 0.18rem 0.45rem;
+				border: 1px solid rgb(var(--gray-light));
+				border-radius: 999px;
+				color: rgb(var(--gray-dark));
+				background: white;
 			}
 			ul {
 				display: flex;
@@ -69,6 +132,11 @@ const posts = (await getCollection('blog'))
 			ul a:hover img {
 				box-shadow: var(--box-shadow);
 			}
+			@media (max-width: 900px) {
+				.language-windows {
+					grid-template-columns: 1fr;
+				}
+			}
 			@media (max-width: 720px) {
 				ul {
 					gap: 0.5em;
@@ -89,6 +157,23 @@ const posts = (await getCollection('blog'))
 	<body>
 		<Header />
 		<main>
+			<section class="language-windows">
+				{languageOrder.map((lang) => (
+					<div class="language-window">
+						<h3>{languageLabels[lang]} posts</h3>
+						<ul>
+							{postsByLanguage[lang].slice(0, 5).map((post) => {
+								const postLang = post.data.lang ?? 'en';
+								const baseSlug = post.data.baseSlug ?? post.id;
+								const href = postLang === 'en' ? `/blog/${baseSlug}/` : `/blog/${baseSlug}/${postLang}/`;
+								return (
+									<li><a href={href}>{post.data.title}</a></li>
+								);
+							})}
+						</ul>
+					</div>
+				))}
+			</section>
 			<section>
 				<ul>
 					{
@@ -103,6 +188,11 @@ const posts = (await getCollection('blog'))
 										<Image width={720} height={360} src={post.data.heroImage} alt="" />
 									)}
 									<h4 class="title">{post.data.title}</h4>
+									<div class="language-badges">
+										{languageOrder
+											.filter((lang) => (translationMap.get(post.data.translationGroup ?? post.data.baseSlug ?? post.id) ?? []).some((item) => (item.data.lang ?? 'en') === lang))
+											.map((lang) => <span>{languageLabels[lang]}</span>)}
+									</div>
 									<p class="date">
 										<FormattedDate date={post.data.pubDate} />
 									</p>
