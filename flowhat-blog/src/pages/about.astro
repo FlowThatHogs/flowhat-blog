@@ -1,24 +1,24 @@
 ---
-import Layout from '../layouts/BlogPost.astro';
+import PageLayout from '../layouts/PageLayout.astro';
 ---
 
-<Layout
-	title="About"
-	description="About FlowHat Blog"
-	pubDate={new Date('April 12 2026')}
->
+<PageLayout title="About" description="About FlowHat Blog">
+	<h1>About FlowHat Blog</h1>
 	<p>
-		FlowHat Blog is a git-backed publication focused on LLMs, agents, coding tools, and practical
+		FlowHat Blog is an independent publication focused on LLMs, agents, coding tools, and practical
 		workflows.
 	</p>
-
 	<p>
 		The goal is simple: publish useful posts that do more than summarize announcements. Each post
-		should add evaluation, synthesis, or practical guidance that helps someone actually use the tools.
+		is meant to add evaluation, synthesis, comparisons, or practical guidance that helps someone
+		actually use the tools.
 	</p>
-
 	<p>
-		The scope is intentionally narrow for now. Models, agent products, coding agents, subagents,
-		multi-agent workflows, and the operational details around using them well.
+		The scope is intentionally narrow for now: models, agent products, coding agents, subagents,
+		multimodal workflows, and the operational details around using them well.
 	</p>
-</Layout>
+	<p>
+		This site may include analytics, marketplace links, and future advertising placements as the
+		publication grows. When that happens, disclosure information will be kept visible on the site.
+	</p>
+</PageLayout>

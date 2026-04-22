@@ -37,6 +37,36 @@ const { title, description, pubDate, updatedDate, heroImage, languageLinks = [] 
 				padding: 1em;
 				color: rgb(var(--gray-dark));
 			}
+			.monetization-box {
+				margin-top: 3rem;
+				padding: 1rem 1.1rem;
+				border: 1px solid rgb(var(--gray-light));
+				border-radius: 16px;
+				background: #fafafa;
+			}
+			.monetization-box h3 {
+				margin: 0 0 0.5rem 0;
+				font-size: 1rem;
+			}
+			.monetization-box p {
+				margin: 0.35rem 0;
+				font-size: 0.95rem;
+			}
+			.monetization-box ul {
+				margin: 0.8rem 0 0.2rem 1rem;
+				padding: 0;
+			}
+			.monetization-box li {
+				margin: 0.45rem 0;
+			}
+			.monetization-box a {
+				color: rgb(var(--accent));
+			}
+			.monetization-note {
+				margin-top: 0.9rem;
+				font-size: 0.82rem;
+				color: rgb(var(--gray));
+			}
 			@media (min-width: 1100px) {
 				.prose {
 					width: min(900px, calc(100% - 4em));
@@ -119,6 +149,16 @@ const { title, description, pubDate, updatedDate, heroImage, languageLinks = [] 
 						<hr />
 					</div>
 					<slot />
+					<div class="monetization-box">
+						<h3>Useful marketplaces</h3>
+						<p>These are general marketplace links that may be used for future gear and tool references.</p>
+						<ul>
+							<li><a href="https://www.coupang.com/" rel="nofollow noopener noreferrer">Coupang</a></li>
+							<li><a href="https://www.amazon.com/" rel="nofollow noopener noreferrer">Amazon</a></li>
+							<li><a href="https://www.aliexpress.com/" rel="nofollow noopener noreferrer">AliExpress</a></li>
+						</ul>
+						<p class="monetization-note">Disclosure: Some outbound links on this site may later become affiliate links. Disclosure details are available on the site policy pages.</p>
+					</div>
 				</div>
 			</article>
 		</main>

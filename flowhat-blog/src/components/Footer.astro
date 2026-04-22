@@ -3,7 +3,12 @@ const today = new Date();
 ---
 
 <footer>
-	&copy; {today.getFullYear()} FlowHat Blog. All rights reserved.
+	<div class="footer-links">
+		<a href="/about">About</a>
+		<a href="/privacy">Privacy</a>
+		<a href="/disclosure">Disclosure</a>
+	</div>
+	<p>&copy; {today.getFullYear()} FlowHat Blog. All rights reserved.</p>
 </footer>
 <style>
 	footer {
@@ -11,5 +16,22 @@ const today = new Date();
 		background: linear-gradient(var(--gray-gradient)) no-repeat;
 		color: rgb(var(--gray));
 		text-align: center;
+	}
+	.footer-links {
+		display: flex;
+		justify-content: center;
+		gap: 1rem;
+		flex-wrap: wrap;
+		margin-bottom: 0.75rem;
+	}
+	.footer-links a {
+		color: rgb(var(--gray-dark));
+		text-decoration: none;
+	}
+	.footer-links a:hover {
+		text-decoration: underline;
+	}
+	footer p {
+		margin: 0;
 	}
 </style>
