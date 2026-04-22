@@ -38,33 +38,42 @@ const { title, description, pubDate, updatedDate, heroImage, languageLinks = [] 
 				color: rgb(var(--gray-dark));
 			}
 			.monetization-box {
-				margin-top: 3rem;
-				padding: 1rem 1.1rem;
-				border: 1px solid rgb(var(--gray-light));
-				border-radius: 16px;
-				background: #fafafa;
+				margin-top: 2.5rem;
+				padding-top: 0.9rem;
+				border-top: 1px solid rgb(var(--gray-light));
 			}
 			.monetization-box h3 {
-				margin: 0 0 0.5rem 0;
-				font-size: 1rem;
+				margin: 0 0 0.45rem 0;
+				font-size: 0.92rem;
+				font-weight: 600;
+				color: rgb(var(--gray));
+				text-transform: uppercase;
+				letter-spacing: 0.04em;
 			}
 			.monetization-box p {
-				margin: 0.35rem 0;
-				font-size: 0.95rem;
+				margin: 0.25rem 0;
+				font-size: 0.92rem;
+				color: rgb(var(--gray-dark));
 			}
-			.monetization-box ul {
-				margin: 0.8rem 0 0.2rem 1rem;
-				padding: 0;
+			.monetization-links {
+				display: flex;
+				gap: 0.85rem;
+				flex-wrap: wrap;
+				margin-top: 0.45rem;
 			}
-			.monetization-box li {
-				margin: 0.45rem 0;
+			.monetization-links a {
+				color: rgb(var(--gray-dark));
+				text-decoration: none;
+				border-bottom: 1px solid rgb(var(--gray-light));
+				padding-bottom: 0.08rem;
 			}
-			.monetization-box a {
+			.monetization-links a:hover {
 				color: rgb(var(--accent));
+				border-bottom-color: rgb(var(--accent));
 			}
 			.monetization-note {
-				margin-top: 0.9rem;
-				font-size: 0.82rem;
+				margin-top: 0.55rem;
+				font-size: 0.8rem;
 				color: rgb(var(--gray));
 			}
 			@media (min-width: 1100px) {
@@ -150,14 +159,14 @@ const { title, description, pubDate, updatedDate, heroImage, languageLinks = [] 
 					</div>
 					<slot />
 					<div class="monetization-box">
-						<h3>Useful marketplaces</h3>
-						<p>These are general marketplace links that may be used for future gear and tool references.</p>
-						<ul>
-							<li><a href="https://www.coupang.com/" rel="nofollow noopener noreferrer">Coupang</a></li>
-							<li><a href="https://www.amazon.com/" rel="nofollow noopener noreferrer">Amazon</a></li>
-							<li><a href="https://www.aliexpress.com/" rel="nofollow noopener noreferrer">AliExpress</a></li>
-						</ul>
-						<p class="monetization-note">Disclosure: Some outbound links on this site may later become affiliate links. Disclosure details are available on the site policy pages.</p>
+						<h3>Related links</h3>
+						<p>General marketplace links for future gear and tool references.</p>
+						<div class="monetization-links">
+							<a href="https://www.coupang.com/" rel="nofollow noopener noreferrer">Coupang</a>
+							<a href="https://www.amazon.com/" rel="nofollow noopener noreferrer">Amazon</a>
+							<a href="https://www.aliexpress.com/" rel="nofollow noopener noreferrer">AliExpress</a>
+						</div>
+						<p class="monetization-note">Some outbound links may later become affiliate links. See the disclosure page for details.</p>
 					</div>
 				</div>
 			</article>
