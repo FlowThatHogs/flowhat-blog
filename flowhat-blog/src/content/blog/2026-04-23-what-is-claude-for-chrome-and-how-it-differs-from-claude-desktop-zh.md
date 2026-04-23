@@ -6,6 +6,13 @@ updatedDate: 2026-04-23
 lang: zh
 translationGroup: what-is-claude-for-chrome-and-how-it-differs-from-claude-desktop
 baseSlug: 2026-04-23-what-is-claude-for-chrome-and-how-it-differs-from-claude-desktop
+tags:
+  - anthropic
+  - claude
+  - claude-for-chrome
+  - claude-desktop
+  - browser-agents
+  - openai
 heroImage: ../../assets/blog-placeholder-1.jpg
 ---
 
