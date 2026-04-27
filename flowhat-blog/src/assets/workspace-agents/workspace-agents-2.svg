@@ -1,0 +1,49 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" rx="40" fill="#0C1124"/>
+  <rect x="48" y="48" width="1504" height="804" rx="32" fill="url(#bg2)"/>
+
+  <rect x="150" y="312" width="280" height="220" rx="28" fill="#141C3A" stroke="#60A5FA" stroke-width="2"/>
+  <text x="190" y="382" fill="#BFDBFE" font-size="42" font-family="Arial, sans-serif" font-weight="700">Trigger</text>
+  <rect x="192" y="416" width="152" height="22" rx="11" fill="#60A5FA" opacity="0.95"/>
+  <rect x="192" y="454" width="188" height="18" rx="9" fill="#DBEAFE" opacity="0.8"/>
+  <rect x="192" y="486" width="150" height="18" rx="9" fill="#93C5FD" opacity="0.55"/>
+
+  <rect x="660" y="230" width="280" height="440" rx="28" fill="#131B35" stroke="#A78BFA" stroke-width="2"/>
+  <text x="700" y="310" fill="#DDD6FE" font-size="42" font-family="Arial, sans-serif" font-weight="700">Process</text>
+  <rect x="706" y="348" width="188" height="18" rx="9" fill="#A78BFA" opacity="0.95"/>
+  <rect x="706" y="392" width="136" height="48" rx="14" fill="#201A42" stroke="#C4B5FD"/>
+  <rect x="706" y="464" width="188" height="48" rx="14" fill="#201A42" stroke="#C4B5FD"/>
+  <rect x="706" y="536" width="160" height="48" rx="14" fill="#201A42" stroke="#C4B5FD"/>
+  <path d="M800 440V464" stroke="#C4B5FD" stroke-width="4" stroke-linecap="round"/>
+  <path d="M800 512V536" stroke="#C4B5FD" stroke-width="4" stroke-linecap="round"/>
+
+  <rect x="1170" y="312" width="280" height="220" rx="28" fill="#141C3A" stroke="#34D399" stroke-width="2"/>
+  <text x="1210" y="382" fill="#BBF7D0" font-size="42" font-family="Arial, sans-serif" font-weight="700">Tools</text>
+  <circle cx="1248" cy="448" r="28" fill="#34D399"/>
+  <rect x="1292" y="420" width="102" height="22" rx="11" fill="#34D399" opacity="0.95"/>
+  <rect x="1292" y="458" width="126" height="18" rx="9" fill="#DCFCE7" opacity="0.85"/>
+  <rect x="1292" y="490" width="82" height="18" rx="9" fill="#86EFAC" opacity="0.6"/>
+
+  <path d="M430 422H630" stroke="url(#flowA)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M940 422H1150" stroke="url(#flowB)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M610 400L650 422L610 444" stroke="#7DD3FC" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1130 400L1170 422L1130 444" stroke="#6EE7B7" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="548" y="724" width="504" height="58" rx="29" fill="#0F172A" stroke="rgba(255,255,255,0.12)"/>
+  <text x="800" y="762" text-anchor="middle" fill="#E2E8F0" font-size="26" font-family="Arial, sans-serif">repeatable workflow, not just a prompt</text>
+
+  <defs>
+    <linearGradient id="bg2" x1="100" y1="110" x2="1500" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#141B37"/>
+      <stop offset="1" stop-color="#0C1328"/>
+    </linearGradient>
+    <linearGradient id="flowA" x1="430" y1="422" x2="630" y2="422" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="flowB" x1="940" y1="422" x2="1150" y2="422" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+  </defs>
+</svg>

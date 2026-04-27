@@ -1,0 +1,54 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" rx="40" fill="#09111F"/>
+  <rect x="48" y="48" width="1504" height="804" rx="32" fill="url(#bg4)"/>
+
+  <path d="M800 170C981 170 1128 317 1128 498C1128 679 981 826 800 826C619 826 472 679 472 498C472 317 619 170 800 170Z" fill="none" stroke="rgba(125,211,252,0.12)" stroke-width="2"/>
+  <path d="M800 232C947 232 1066 351 1066 498C1066 645 947 764 800 764C653 764 534 645 534 498C534 351 653 232 800 232Z" fill="none" stroke="rgba(167,139,250,0.12)" stroke-width="2"/>
+
+  <g>
+    <circle cx="800" cy="498" r="116" fill="url(#center4)"/>
+    <circle cx="800" cy="498" r="90" fill="#121A33" stroke="rgba(255,255,255,0.16)"/>
+    <path d="M760 498H840" stroke="#E2E8F0" stroke-width="8" stroke-linecap="round"/>
+    <path d="M800 458V538" stroke="#E2E8F0" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <rect x="730" y="118" width="140" height="64" rx="22" fill="#111827" stroke="#7DD3FC"/>
+    <text x="800" y="158" text-anchor="middle" fill="#BAE6FD" font-size="24" font-family="Arial, sans-serif" font-weight="700">Schedule</text>
+    <path d="M800 182V328" stroke="#7DD3FC" stroke-width="4" stroke-dasharray="10 12"/>
+  </g>
+
+  <g>
+    <rect x="1160" y="462" width="208" height="72" rx="22" fill="#111827" stroke="#34D399"/>
+    <text x="1264" y="505" text-anchor="middle" fill="#BBF7D0" font-size="26" font-family="Arial, sans-serif" font-weight="700">Slack</text>
+    <path d="M1118 498H1160" stroke="#34D399" stroke-width="4" stroke-dasharray="10 12"/>
+  </g>
+
+  <g>
+    <rect x="232" y="462" width="208" height="72" rx="22" fill="#111827" stroke="#A78BFA"/>
+    <text x="336" y="505" text-anchor="middle" fill="#DDD6FE" font-size="26" font-family="Arial, sans-serif" font-weight="700">CRM</text>
+    <path d="M440 498H482" stroke="#A78BFA" stroke-width="4" stroke-dasharray="10 12"/>
+  </g>
+
+  <g>
+    <rect x="678" y="714" width="244" height="72" rx="22" fill="#111827" stroke="#FDE68A"/>
+    <text x="800" y="758" text-anchor="middle" fill="#FEF3C7" font-size="26" font-family="Arial, sans-serif" font-weight="700">Report Draft</text>
+    <path d="M800 668V714" stroke="#FDE68A" stroke-width="4" stroke-dasharray="10 12"/>
+  </g>
+
+  <g opacity="0.88">
+    <circle cx="800" cy="498" r="192" fill="none" stroke="rgba(94,234,212,0.24)" stroke-width="3" stroke-dasharray="8 16"/>
+    <circle cx="800" cy="498" r="248" fill="none" stroke="rgba(125,211,252,0.18)" stroke-width="3" stroke-dasharray="8 16"/>
+  </g>
+
+  <defs>
+    <linearGradient id="bg4" x1="90" y1="90" x2="1510" y2="810" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101936"/>
+      <stop offset="1" stop-color="#09111F"/>
+    </linearGradient>
+    <radialGradient id="center4" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(800 498) rotate(90) scale(116)">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </radialGradient>
+  </defs>
+</svg>

@@ -1,0 +1,44 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" rx="40" fill="#0B1120"/>
+  <rect x="58" y="58" width="1484" height="784" rx="30" fill="url(#bg3)"/>
+
+  <rect x="208" y="170" width="1184" height="560" rx="34" fill="#111831" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="208" y="170" width="1184" height="88" rx="34" fill="#151F3F"/>
+  <circle cx="274" cy="214" r="10" fill="#FB7185"/>
+  <circle cx="310" cy="214" r="10" fill="#FBBF24"/>
+  <circle cx="346" cy="214" r="10" fill="#34D399"/>
+  <text x="1264" y="222" text-anchor="end" fill="#CBD5E1" font-size="24" font-family="Arial, sans-serif">Approvals & Governance</text>
+
+  <rect x="278" y="306" width="478" height="152" rx="24" fill="#0F172A" stroke="#38BDF8"/>
+  <text x="320" y="360" fill="#E0F2FE" font-size="34" font-family="Arial, sans-serif" font-weight="700">Sensitive action</text>
+  <rect x="320" y="388" width="214" height="16" rx="8" fill="#93C5FD" opacity="0.9"/>
+  <rect x="320" y="420" width="168" height="16" rx="8" fill="#DBEAFE" opacity="0.7"/>
+  <rect x="560" y="382" width="144" height="44" rx="22" fill="#38BDF8"/>
+  <text x="632" y="410" text-anchor="middle" fill="#0B1120" font-size="22" font-family="Arial, sans-serif" font-weight="700">Request</text>
+
+  <rect x="844" y="306" width="478" height="152" rx="24" fill="#0F172A" stroke="#A78BFA"/>
+  <text x="886" y="360" fill="#EDE9FE" font-size="34" font-family="Arial, sans-serif" font-weight="700">Human approval</text>
+  <rect x="886" y="388" width="220" height="16" rx="8" fill="#C4B5FD" opacity="0.95"/>
+  <rect x="886" y="420" width="154" height="16" rx="8" fill="#E9D5FF" opacity="0.72"/>
+  <rect x="1142" y="376" width="74" height="54" rx="18" fill="#1E293B" stroke="#FDE68A"/>
+  <path d="M1178 392L1189 403L1176 418L1166 409" stroke="#FDE68A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M800 382C828 382 844 398 844 430C844 462 828 478 800 478C772 478 756 462 756 430C756 398 772 382 800 382Z" fill="#0F172A" stroke="#5EEAD4" stroke-width="2"/>
+  <path d="M800 340V380" stroke="#5EEAD4" stroke-width="6" stroke-linecap="round"/>
+  <path d="M800 480V526" stroke="#5EEAD4" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="800" cy="430" r="14" fill="#5EEAD4"/>
+
+  <rect x="278" y="520" width="1044" height="134" rx="26" fill="#0F172A" stroke="rgba(255,255,255,0.08)"/>
+  <text x="320" y="578" fill="#E2E8F0" font-size="30" font-family="Arial, sans-serif" font-weight="700">Admin visibility, permissions, and safer reuse</text>
+  <rect x="320" y="604" width="328" height="14" rx="7" fill="#334155"/>
+  <rect x="320" y="628" width="260" height="14" rx="7" fill="#334155" opacity="0.72"/>
+  <rect x="1140" y="562" width="138" height="50" rx="16" fill="#111827" stroke="#34D399"/>
+  <text x="1209" y="594" text-anchor="middle" fill="#BBF7D0" font-size="22" font-family="Arial, sans-serif" font-weight="700">Approved</text>
+
+  <defs>
+    <linearGradient id="bg3" x1="100" y1="90" x2="1510" y2="810" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#141B36"/>
+      <stop offset="1" stop-color="#0C1227"/>
+    </linearGradient>
+  </defs>
+</svg>
