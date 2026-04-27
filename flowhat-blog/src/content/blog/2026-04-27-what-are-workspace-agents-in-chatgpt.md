@@ -60,8 +60,6 @@ OpenAI is describing something closer to a workflow system with a model in the m
 
 That is a different product shape from a one-off chat.
 
-![Workspace agents visual 2: trigger, process, and tools as a repeatable workflow system](../../assets/workspace-agents/workspace-agents-2.svg)
-
 ## What they are actually good for
 
 OpenAI is fairly clear about the kind of work it has in mind.[2]
@@ -104,8 +102,6 @@ OpenAI also says GPTs will remain available while teams experiment with workspac
 
 That is more than a feature expansion. It is OpenAI sketching out a different role for ChatGPT.
 
-![Workspace agents visual 5: the shift from personal GPTs toward shared team workflow agents](../../assets/workspace-agents/workspace-agents-5.svg)
-
 ## The real argument behind the launch
 
 OpenAI’s case is basically that important work inside companies rarely lives inside one prompt.[1]
@@ -136,8 +132,6 @@ That is a very different posture from “here is a smart assistant, good luck.�
 
 It suggests OpenAI thinks workplace agents will be judged less by demo magic alone and more by whether they can behave predictably inside an organization.
 
-![Workspace agents visual 3: approvals, permissions, and governance as part of the core product](../../assets/workspace-agents/workspace-agents-3.svg)
-
 ## Not every workflow should become an agent
 
 To OpenAI’s credit, its Academy guide is more restrained than the market around it.[2]
@@ -165,8 +159,6 @@ OpenAI wants ChatGPT to become a place where teams define recurring work, connec
 That is a much bigger product ambition than another feature in the sidebar.
 
 It pushes ChatGPT toward a shared workflow runtime.
-
-![Workspace agents visual 4: ChatGPT moving toward a cloud-running workflow hub](../../assets/workspace-agents/workspace-agents-4.svg)
 
 Whether teams fully buy into that model is still an open question. But the direction is hard to miss.
 
