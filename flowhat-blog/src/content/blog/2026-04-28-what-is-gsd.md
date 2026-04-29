@@ -2,7 +2,7 @@
 title: "What Is GSD (get-shit-done)?"
 description: "GSD (get-shit-done) is not just another Claude Code prompt pack. It is a workflow system for coding agents built around planning, execution, verification, and persistent project state."
 pubDate: 2026-04-28
-updatedDate: 2026-04-28
+updatedDate: 2026-04-29
 translationGroup: what-is-gsd
 baseSlug: 2026-04-28-what-is-gsd
 heroImage: ../../assets/blog-placeholder-1.jpg
@@ -120,7 +120,7 @@ GSD’s popularity suggests that many users now want a workflow layer around the
 
 That is also why the project’s tone lands with some people. It is not selling enterprise ceremony. It is selling a way for solo developers or small teams to keep agent work from turning into mush.
 
-The practical question of **how people actually use GSD day to day** is important too, but that is better handled as a separate follow-up post than crammed into an introductory one.
+The practical question of **how people actually use GSD day to day** is important too. I handle that separately in the follow-up: [How to Actually Use GSD: The Workflow Behind Get Shit Done](/blog/2026-04-29-how-to-use-gsd/).
 
 ## What are the tradeoffs?
 

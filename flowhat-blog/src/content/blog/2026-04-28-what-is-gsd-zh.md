@@ -2,7 +2,7 @@
 title: "什么是 GSD（Get Shit Done）？"
 description: "GSD（Get Shit Done）不只是另一个 Claude Code 提示词包。它更像是一个围绕规划、执行、验证与持久项目状态构建的编码代理工作流系统。"
 pubDate: 2026-04-28
-updatedDate: 2026-04-28
+updatedDate: 2026-04-29
 lang: zh
 translationGroup: what-is-gsd
 baseSlug: 2026-04-28-what-is-gsd
@@ -121,6 +121,8 @@ GSD 把这些看成是**工作流问题**，而不只是模型问题。
 GSD 的流行说明，越来越多用户真正想要的，已经不只是模型本身，而是**模型外面那层工作流结构**。
 
 它的语气之所以打动一部分人，也和这个有关。它卖的不是企业流程仪式感，而是一种让独立开发者和小团队不至于把代理工作做成一团浆糊的方法。
+
+不过，**日常到底该怎么使用 GSD** 是另一个实际问题。我在后续文章 [如何真正使用 GSD：Get Shit Done 背后的工作流](/blog/2026-04-29-how-to-use-gsd/zh/) 里单独讨论了这个部分。
 
 ## GSD 的代价是什么？
 

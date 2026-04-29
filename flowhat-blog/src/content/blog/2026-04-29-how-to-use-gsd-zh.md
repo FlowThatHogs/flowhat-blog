@@ -16,7 +16,7 @@ tags:
   - context-engineering
 ---
 
-上一篇文章讨论了 **GSD（get-shit-done）** 是什么。这个名字听起来像一个很猛的 Claude Code 提示词包，但更准确的理解是：它是一个面向编码代理的工作流系统。
+上一篇文章讨论了 [**GSD（get-shit-done）** 是什么](/blog/2026-04-28-what-is-gsd/zh/)。这个名字听起来像一个很猛的 Claude Code 提示词包，但更准确的理解是：它是一个面向编码代理的工作流系统。
 
 更实际的问题是：
 

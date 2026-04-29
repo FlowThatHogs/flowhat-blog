@@ -16,7 +16,7 @@ tags:
   - context-engineering
 ---
 
-In the previous post, we looked at what **GSD (get-shit-done)** is. The name makes it sound like a loud Claude Code prompt pack, but the project is better understood as a workflow system for coding agents.
+In the previous post, [we looked at what **GSD (get-shit-done)** is](/blog/2026-04-28-what-is-gsd/). The name makes it sound like a loud Claude Code prompt pack, but the project is better understood as a workflow system for coding agents.
 
 The practical question is simpler:
 

@@ -2,7 +2,7 @@
 title: "GSD(get-shit-done)는 무엇인가?"
 description: "GSD(get-shit-done)는 또 하나의 Claude Code 프롬프트 팩이 아니다. 계획, 실행, 검증, 그리고 지속되는 프로젝트 상태를 중심에 둔 코딩 에이전트용 워크플로우 시스템에 가깝다."
 pubDate: 2026-04-28
-updatedDate: 2026-04-28
+updatedDate: 2026-04-29
 translationGroup: what-is-gsd
 baseSlug: 2026-04-28-what-is-gsd
 heroImage: ../../assets/blog-placeholder-1.jpg
@@ -124,7 +124,7 @@ GSD의 인기는 이제 많은 사용자가 모델 자체보다, **모델 주변
 
 프로젝트의 말투가 먹히는 이유도 여기에 있다. 이건 엔터프라이즈식 의식을 팔지 않는다. 대신 솔로 개발자나 작은 팀이 에이전트 작업이 흐물흐물해지는 걸 막을 방법을 판다.
 
-다만 **사람들이 실제로 GSD를 어떻게 쓰는가**라는 질문은 또 따로 중요하다. 그건 소개글 한 편 안에 우겨 넣기보다, 다음 글에서 별도로 다루는 편이 더 낫다.
+다만 **사람들이 실제로 GSD를 어떻게 쓰는가**라는 질문은 또 따로 중요하다. 그 내용은 후속 글인 [GSD 실제 사용법: Get Shit Done의 핵심 워크플로우](/blog/2026-04-29-how-to-use-gsd/ko/)에서 따로 다뤘다.
 
 ## GSD의 tradeoff는 무엇인가?
 
