@@ -2,7 +2,7 @@
 title: "gstack이 AI 에이전트에 대해 제대로 짚은 것: 프롬프트보다 역할이 중요하다"
 description: "gstack은 단순한 Garry Tan의 Claude Code 설정이 아니다. AI 코딩 워크플로가 프롬프트 요령에서 역할 기반 운영 규율로 넘어가고 있다는 좋은 사례다."
 pubDate: 2026-04-30
-updatedDate: 2026-04-30
+updatedDate: 2026-05-02
 translationGroup: gstack-roles-beat-prompts
 baseSlug: 2026-04-30-gstack-roles-beat-prompts
 heroImage: ../../assets/blog-placeholder-1.jpg
@@ -45,6 +45,8 @@ Garry Tan은 Y Combinator의 President 겸 CEO이고, YC의 General Partner다. 
 gstack의 빠른 시작 흐름도 이 점을 보여준다. 하나의 거대한 프롬프트로 시작하라고 하지 않는다. 시스템을 설치하고, `/office-hours`, `/plan-ceo-review`, `/review`, `/qa`를 실행해본 뒤, 이 워크플로가 자신에게 맞는지 판단하라고 한다.[1]
 
 이건 프롬프트 라이브러리가 아니다. 힘이 있는 체크리스트다.
+
+개념은 이해했고 실제 사용 흐름이 궁금하다면 [gstack 사용법: Claude Code를 과하게 복잡하게 만들지 않는 방법](/blog/2026-05-02-how-to-use-gstack/ko/)을 보면 된다.
 
 ## 왜 사람들이 주목했나
 

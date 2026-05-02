@@ -2,7 +2,7 @@
 title: "What gstack Gets Right About AI Agents: Roles Beat Prompts"
 description: "gstack is not just Garry Tan's Claude Code setup. It is a useful example of how AI coding workflows are moving from prompt tricks to role-based operating discipline."
 pubDate: 2026-04-30
-updatedDate: 2026-04-30
+updatedDate: 2026-05-02
 translationGroup: gstack-roles-beat-prompts
 baseSlug: 2026-04-30-gstack-roles-beat-prompts
 heroImage: ../../assets/blog-placeholder-1.jpg
@@ -45,6 +45,8 @@ Blank-chat AI coding does not scale well. A model can produce a lot of output, b
 gstack's quick-start flow makes the point. It does not tell you to begin with one giant prompt. It asks you to install the system, run `/office-hours`, run `/plan-ceo-review`, run `/review`, run `/qa`, and then decide whether the workflow fits.[1]
 
 That is not a prompt library. It is a checklist with teeth.
+
+If you already understand the concept and want the practical workflow, read [How to Use gstack Without Overcomplicating Claude Code](/blog/2026-05-02-how-to-use-gstack/).
 
 ## Why people noticed it
 

@@ -2,7 +2,7 @@
 title: "gstack 对 AI Agent 说对的一件事：角色比提示词更重要"
 description: "gstack 不只是 Garry Tan 的 Claude Code 配置。它更像是一个例子，说明 AI 编程工作流正在从提示词技巧转向基于角色的运行纪律。"
 pubDate: 2026-04-30
-updatedDate: 2026-04-30
+updatedDate: 2026-05-02
 translationGroup: gstack-roles-beat-prompts
 baseSlug: 2026-04-30-gstack-roles-beat-prompts
 heroImage: ../../assets/blog-placeholder-1.jpg
@@ -45,6 +45,8 @@ Garry Tan 是 Y Combinator 的 President 和 CEO，也是 YC 的 General Partner
 gstack 的 quick-start 流程也说明了这一点。它不是让你从一个巨大的提示词开始。它让你安装系统，运行 `/office-hours`，运行 `/plan-ceo-review`，运行 `/review`，运行 `/qa`，然后判断这个工作流是否适合你。[1]
 
 这不是提示词库。它是一份有约束力的检查清单。
+
+如果你已经理解了概念，想看实际使用流程，可以读 [如何使用 gstack：不要把 Claude Code 变得过度复杂](/blog/2026-05-02-how-to-use-gstack/zh/)。
 
 ## 为什么人们会注意到它
 

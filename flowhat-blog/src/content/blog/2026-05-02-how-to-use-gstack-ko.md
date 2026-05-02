@@ -16,6 +16,8 @@ heroImage: ../../assets/blog-placeholder-1.jpg
 
 gstack은 터미널 안에 들어온 마법의 AI 회사가 아니다. Claude Code를 더 체계적으로 쓰게 해주는 스킬 모음에 가깝다.
 
+gstack이 무엇이고 왜 주목받았는지부터 보고 싶다면 [gstack이 AI 에이전트에 대해 제대로 짚은 것: 프롬프트보다 역할이 중요하다](/blog/2026-04-30-gstack-roles-beat-prompts/ko/)를 먼저 보면 된다.
+
 핵심 가치는 단순하다.
 
 코딩하기 전에 생각하고, 믿기 전에 리뷰하고, 배포하기 전에 테스트하게 만든다.

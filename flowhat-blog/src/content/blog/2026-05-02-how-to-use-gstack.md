@@ -16,6 +16,8 @@ heroImage: ../../assets/blog-placeholder-1.jpg
 
 gstack is not a magic AI company inside your terminal. It is a set of structured skills for Claude Code that helps you think before coding, review before trusting, and test before shipping.
 
+If you want the broader explanation of what gstack is and why people noticed it, start with [What gstack Gets Right About AI Agents: Roles Beat Prompts](/blog/2026-04-30-gstack-roles-beat-prompts/).
+
 That is the main value.
 
 Most AI coding failures do not start in the code. They start earlier. The feature is poorly framed. The scope is too big. The agent starts implementing before the architecture is clear. The result looks complete, but nobody tested the real user flow.

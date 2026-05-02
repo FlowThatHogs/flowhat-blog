@@ -16,6 +16,8 @@ heroImage: ../../assets/blog-placeholder-1.jpg
 
 gstack 不是藏在终端里的魔法 AI 公司。它更像是一组给 Claude Code 使用的结构化技能，帮助你在写代码前先想清楚，在信任代码前先审查，在发布前先测试。
 
+如果你想先了解 gstack 是什么、为什么受到关注，可以先读 [gstack 对 AI Agent 说对的一件事：角色比提示词更重要](/blog/2026-04-30-gstack-roles-beat-prompts/zh/)。
+
 这就是它的主要价值。
 
 大多数 AI 编程失败并不是从代码开始的，而是更早。功能定义不清，范围太大，架构还没想明白，agent 就已经开始实现。结果看起来完成了，但真实用户流程没人测过。
