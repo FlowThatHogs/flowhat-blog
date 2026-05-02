@@ -171,6 +171,68 @@ The most important part is reducing scope before implementation.
 
 gstack is useful when it stops you from building too much too early.
 
+## The five commands to try first
+
+If you only try five commands, start here.
+
+### `/office-hours`
+
+Use this before you know exactly what to build. Explain the user problem, not just the feature request. The goal is to get a sharper problem statement and a smaller first wedge.
+
+Good prompt:
+
+```text
+/office-hours
+I want to build a daily briefing feature for people with too many meetings.
+Help me clarify the real user pain and the smallest useful version.
+```
+
+### `/plan-ceo-review`
+
+Use this when the idea is already formed but may be too large. Ask it to cut scope, challenge weak assumptions, and identify what belongs in v1.
+
+Good prompt:
+
+```text
+/plan-ceo-review
+Review this feature plan. Be strict about scope. What should we remove before implementation?
+```
+
+### `/plan-eng-review`
+
+Use this before implementation when the work touches multiple files, data flow, APIs, auth, migrations, or state. The output you want is not more ambition. You want risks, edge cases, and a test plan.
+
+Good prompt:
+
+```text
+/plan-eng-review
+Check this plan for architecture risks, hidden assumptions, edge cases, and tests we need before coding.
+```
+
+### `/review`
+
+Use this after Claude Code writes the code. Treat it as a separate reviewer, not as a continuation of implementation. Ask it to look for production bugs, missing cases, and plan/code mismatch.
+
+Good prompt:
+
+```text
+/review
+Review the current branch before I accept it. Focus on bugs that could pass casual inspection.
+```
+
+### `/qa`
+
+Use this when there is a real browser flow. Give it the staging URL and the path to test. This is where you catch product-level failures that normal code review can miss.
+
+Good prompt:
+
+```text
+/qa https://staging.example.com
+Test signup, onboarding, and the first successful user action. Report bugs and verify fixes.
+```
+
+You can add `/ship` after these, but do not treat it as a starting point. Shipping is the last step, not the workflow.
+
 ## When not to use gstack
 
 Do not use the full gstack loop for everything.
