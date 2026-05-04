@@ -18,7 +18,7 @@ heroImage: ../../assets/blog-placeholder-1.jpg
 
 Superpowers는 코딩 에이전트에게 작업 절차를 붙여준다.
 
-먼저 개념 설명이 필요하다면 [What Is Superpowers?](/blog/2026-05-03-what-is-superpowers/ko/)를 보면 된다. 이 글은 그 다음 편이다. 어떤 스킬부터 쓰면 되는지, 언제 무거운 스킬을 추가하면 되는지, 어떻게 해야 워크플로가 쓸데없는 의식처럼 변하지 않는지 정리한다.
+먼저 개념 설명이 필요하다면 [Superpowers란 무엇인가?](/blog/2026-05-03-what-is-superpowers/ko/)를 보면 된다. 이 글은 그 다음 편이다. 어떤 스킬부터 쓰면 되는지, 언제 무거운 스킬을 추가하면 되는지, 어떻게 해야 워크플로가 쓸데없는 의식처럼 변하지 않는지 정리한다.
 
 Superpowers는 raw chat 세션에서 자주 빠지는 소프트웨어 작업 단계를 이름 붙은 스킬로 제공한다. brainstorming, planning, testing, debugging, review, verification, finishing 같은 것들이다.[1][2]
 

@@ -2,7 +2,7 @@
 title: "Superpowers란 무엇인가?"
 description: "Superpowers는 코딩 에이전트용 소프트웨어 개발 방법론이자 스킬 프레임워크다. Claude Code 공식 스킬로 제공되며 Codex, Cursor, OpenCode, Copilot CLI, Gemini CLI에서도 사용할 수 있다."
 pubDate: 2026-05-03
-updatedDate: 2026-05-03
+updatedDate: 2026-05-04
 lang: ko
 translationGroup: what-is-superpowers
 baseSlug: 2026-05-03-what-is-superpowers
@@ -25,6 +25,8 @@ heroImage: ../../assets/blog-placeholder-1.jpg
 프롬프트 팩은 모델에게 더 나은 지시를 준다. Superpowers는 에이전트에게 개발 프로세스를 주려 한다. 만들기 전에 묻고, 구현 전에 설계하고, 파일을 바꾸기 전에 계획하고, 코드를 믿기 전에 테스트하고, 합치기 전에 리뷰하고, 끝났다고 말하기 전에 검증하는 흐름이다.
 
 작성 시점에 GitHub API 기준 `obra/superpowers`는 약 **176,900 stars**, **15,600 forks**, MIT 라이선스를 가진 프로젝트였다.[2] 이 숫자가 모든 프로젝트에 맞는 방법론이라는 증거는 아니다. 다만 개발자들이 실제 문제에 주목하고 있다는 신호다. 코딩 에이전트는 많은 결과물을 만들 수 있지만, 그 결과물이 신뢰할 수 있는 소프트웨어가 되려면 프로세스가 필요하다.
+
+개념은 이해했고 실제로 어떻게 쓰는지가 궁금하다면 다음 글인 [Superpowers 사용법: 코딩 에이전트를 위한 실전 스킬 경로](/blog/2026-05-04-how-to-use-superpowers/ko/)를 보면 된다. 이 글은 Superpowers가 무엇인지 설명하고, 후속 글은 어떤 스킬부터 시작하고 언제 고급 스킬을 추가하면 되는지 정리한다.
 
 ## Superpowers가 코딩 에이전트에게 주는 것
 

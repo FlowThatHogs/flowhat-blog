@@ -18,7 +18,7 @@ heroImage: ../../assets/blog-placeholder-1.jpg
 
 Superpowers 给编程代理加上一套工作流程。
 
-如果你想先了解概念，可以从 [What Is Superpowers?](/blog/2026-05-03-what-is-superpowers/zh/) 开始。这篇文章是后续的实用指南：先用哪些技能，什么时候加入更重的流程，以及怎样避免把工作流变成多余的仪式。
+如果你想先了解概念，可以从 [Superpowers 是什么？](/blog/2026-05-03-what-is-superpowers/zh/) 开始。这篇文章是后续的实用指南：先用哪些技能，什么时候加入更重的流程，以及怎样避免把工作流变成多余的仪式。
 
 可以把 Superpowers 理解成一组给软件开发步骤命名的技能。raw chat session 里经常被跳过的 brainstorming、planning、testing、debugging、review、verification、finishing，都被拆成了代理可以调用的技能。[1][2]
 

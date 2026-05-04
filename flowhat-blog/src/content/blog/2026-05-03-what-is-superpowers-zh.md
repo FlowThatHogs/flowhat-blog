@@ -2,7 +2,7 @@
 title: "Superpowers 是什么？"
 description: "Superpowers 是面向编程代理的软件开发方法论和技能框架。它作为 Claude Code 官方技能提供，也可用于 Codex、Cursor、OpenCode、Copilot CLI 和 Gemini CLI。"
 pubDate: 2026-05-03
-updatedDate: 2026-05-03
+updatedDate: 2026-05-04
 lang: zh
 translationGroup: what-is-superpowers
 baseSlug: 2026-05-03-what-is-superpowers
@@ -25,6 +25,8 @@ heroImage: ../../assets/blog-placeholder-1.jpg
 提示词包给模型更好的指令。Superpowers 试图给代理一套开发流程：构建前先提问，实现前先设计，改文件前先计划，相信代码前先测试，合并前先评审，声称完成前先验证。
 
 截至写作时，GitHub API 显示 `obra/superpowers` 约有 **176,900 stars**、**15,600 forks**，采用 MIT 许可证。[2] 这些数字不能证明这套方法适合每个项目。但它们说明开发者正在关注一个真实问题：编程代理可以产生大量输出，但如果输出要变成可靠软件，就需要流程。
+
+如果你已经理解概念，想看实际怎么用，可以接着读 [如何使用 Superpowers：给编程代理的实用技能路径](/blog/2026-05-04-how-to-use-superpowers/zh/)。这篇解释 Superpowers 是什么，后续文章则整理先用哪些技能，以及什么时候加入更高级的技能。
 
 ## Superpowers 给编程代理什么？
 

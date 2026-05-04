@@ -2,7 +2,7 @@
 title: "What Is Superpowers?"
 description: "Superpowers is a software-development methodology and skills framework for coding agents, available as an official Claude Code skill and usable across Codex, Cursor, OpenCode, Copilot CLI, and Gemini CLI."
 pubDate: 2026-05-03
-updatedDate: 2026-05-03
+updatedDate: 2026-05-04
 lang: en
 translationGroup: what-is-superpowers
 baseSlug: 2026-05-03-what-is-superpowers
@@ -25,6 +25,8 @@ That is why it should not be understood as just another prompt pack.
 A prompt pack gives the model better instructions. Superpowers tries to give the agent a development process: ask before building, design before implementing, plan before changing files, test before trusting code, review before merging, and verify before claiming the work is done.
 
 At the time of writing, GitHub's API showed `obra/superpowers` with roughly **176,900 stars**, **15,600 forks**, and an MIT license.[2] Those numbers are not proof that the methodology is right for every project. They do show that developers are paying attention to a real problem: coding agents can produce a lot of output, but output needs process if it is going to become reliable software.
+
+If you already understand the concept and want the practical version, read [How to Use Superpowers: A Practical Skill Path for Coding Agents](/blog/2026-05-04-how-to-use-superpowers/) next. This piece explains what Superpowers is; the follow-up shows which skills to start with and when to add the more advanced ones.
 
 ## What Superpowers gives a coding agent
 
