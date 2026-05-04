@@ -8,14 +8,15 @@ import Header from '../components/Header.astro';
 
 type Props = CollectionEntry<'blog'>['data'] & {
 	languageLinks?: { lang: string; href: string; label: string }[];
+	alternateLinks?: { lang: string; href: string }[];
 };
 
-const { title, description, pubDate, updatedDate, heroImage, languageLinks = [] } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, lang = 'en', languageLinks = [], alternateLinks = [] } = Astro.props;
 ---
 
-<html lang="en">
+<html lang={lang}>
 	<head>
-		<BaseHead title={title} description={description} />
+		<BaseHead title={title} description={description} alternateLinks={alternateLinks} />
 		<style>
 			main {
 				width: calc(100% - 2em);

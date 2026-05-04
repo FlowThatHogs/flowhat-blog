@@ -11,11 +11,12 @@ interface Props {
 	title: string;
 	description: string;
 	image?: ImageMetadata;
+	alternateLinks?: { lang: string; href: string }[];
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
-const { title, description, image = FallbackImage } = Astro.props;
+const { title, description, image = FallbackImage, alternateLinks = [] } = Astro.props;
 ---
 
 <!-- Global Metadata -->
@@ -36,6 +37,7 @@ const { title, description, image = FallbackImage } = Astro.props;
 
 <!-- Canonical URL -->
 <link rel="canonical" href={canonicalURL} />
+{alternateLinks.map((item) => <link rel="alternate" hreflang={item.lang} href={new URL(item.href, Astro.site)} />)}
 
 <!-- Primary Meta Tags -->
 <title>{title}</title>

@@ -37,8 +37,18 @@ const languageLinks = languageOrder
 					? `/blog/${baseSlug}/`
 					: `/blog/${baseSlug}/${lang}/`,
 	}));
+const alternateLinks = languageOrder
+	.filter((lang) => siblings.some((item) => (item.data.lang ?? 'en') === lang))
+	.map((lang) => ({
+		lang,
+		href: lang === 'en' ? `/blog/${baseSlug}/` : `/blog/${baseSlug}/${lang}/`,
+	}));
+
+if (alternateLinks.some((item) => item.lang === 'en')) {
+	alternateLinks.push({ lang: 'x-default', href: `/blog/${baseSlug}/` });
+}
 ---
 
-<BlogPost {...post.data} languageLinks={languageLinks}>
+<BlogPost {...post.data} languageLinks={languageLinks} alternateLinks={alternateLinks}>
 	<Content />
 </BlogPost>
