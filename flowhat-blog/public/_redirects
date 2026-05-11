@@ -1,0 +1,4 @@
+# Normalize localized blog URLs without trailing slash.
+# Keeps Googlebot and external links on the canonical /ko/ and /zh/ URLs.
+/blog/:slug/ko /blog/:slug/ko/ 301
+/blog/:slug/zh /blog/:slug/zh/ 301
