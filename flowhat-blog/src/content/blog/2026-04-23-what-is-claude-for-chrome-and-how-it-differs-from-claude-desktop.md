@@ -2,7 +2,7 @@
 title: "What Is Claude for Chrome?"
 description: "Claude for Chrome is more than a browser extension. It is Anthropic’s attempt to turn Claude into a browser agent that can read pages, click through websites, and work alongside Claude Desktop."
 pubDate: 2026-04-23
-updatedDate: 2026-04-23
+updatedDate: 2026-05-11
 lang: en
 translationGroup: what-is-claude-for-chrome-and-how-it-differs-from-claude-desktop
 baseSlug: 2026-04-23-what-is-claude-for-chrome-and-how-it-differs-from-claude-desktop
@@ -20,7 +20,7 @@ heroImage: ../../assets/blog-placeholder-1.jpg
 
 At a glance, it looks like one more browser extension. In practice, it is closer to a **browser agent**. Anthropic is not just placing Claude next to the web. It is putting Claude inside Chrome’s side panel and giving it enough browser access to read pages, click buttons, move across tabs, and help complete multi-step tasks.[1]
 
-That is what makes the product worth paying attention to.
+That is what makes the product worth paying attention to. It also explains why OpenAI's later [Codex Chrome extension](/blog/2026-05-11-what-is-codex-chrome-openai-coding-agent-moves-into-browser/) belongs in the same browser-agent conversation, even though Codex starts from coding and work automation rather than general assistance.
 
 The more important question is not whether Claude for Chrome can summarize a page. Plenty of products can do that. The real question is whether Anthropic is turning Claude into a tool that can **act inside the browser**, not merely talk about what the browser sees.
 

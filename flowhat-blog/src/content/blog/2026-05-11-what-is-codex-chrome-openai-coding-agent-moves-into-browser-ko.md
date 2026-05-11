@@ -59,7 +59,7 @@ OpenAI는 Codex Chrome을 명시적인 권한 제어 위에 올려두고 있다.
 
 ## Claude for Chrome과 비교하면 무엇이 다른가
 
-Codex Chrome은 **Claude for Chrome**과 같은 큰 흐름 안에 있다. 하지만 두 제품의 출발점은 다르다.
+Codex Chrome은 [**Claude for Chrome**](/blog/2026-04-23-what-is-claude-for-chrome-and-how-it-differs-from-claude-desktop/ko/)과 같은 큰 흐름 안에 있다. 하지만 두 제품의 출발점은 다르다.
 
 Claude for Chrome은 Claude를 사용자의 브라우저 워크플로우 안에 넣으려는 Anthropic의 시도다. Claude는 Chrome side panel에서 페이지를 읽고, 클릭하고, 웹사이트를 탐색하고, 여러 탭을 넘나들며 브라우저 작업을 도울 수 있다.[2][3]
 

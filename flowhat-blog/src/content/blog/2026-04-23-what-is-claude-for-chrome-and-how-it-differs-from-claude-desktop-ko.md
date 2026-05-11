@@ -2,7 +2,7 @@
 title: "Claude for Chrome은 무엇인가?"
 description: "Claude for Chrome은 단순한 브라우저 확장이 아니다. Anthropic이 Claude를 브라우저 안에서 읽고 클릭하고 움직이는 에이전트로 확장하려는 시도에 가깝다."
 pubDate: 2026-04-23
-updatedDate: 2026-04-23
+updatedDate: 2026-05-11
 lang: ko
 translationGroup: what-is-claude-for-chrome-and-how-it-differs-from-claude-desktop
 baseSlug: 2026-04-23-what-is-claude-for-chrome-and-how-it-differs-from-claude-desktop
@@ -21,6 +21,8 @@ heroImage: ../../assets/blog-placeholder-1.jpg
 하지만 실제로는 그보다 훨씬 크다.
 
 이 제품은 웹페이지를 옆에서 설명해주는 도구라기보다, Claude를 Chrome 사이드패널 안에 넣고 **페이지를 읽고, 버튼을 클릭하고, 탭을 오가며, 여러 단계의 웹 작업을 수행하게 만드는 브라우저 에이전트**에 더 가깝다.[1]
+
+그래서 이 제품은 OpenAI의 [Codex Chrome](/blog/2026-05-11-what-is-codex-chrome-openai-coding-agent-moves-into-browser/ko/)과도 같이 읽어볼 만하다. Claude for Chrome이 assistant를 브라우저 안으로 가져오는 사례라면, Codex Chrome은 코딩/업무 에이전트가 로그인된 웹 맥락까지 확장되는 사례다.
 
 그래서 이 제품에서 중요한 질문은 “요약을 잘하나?”가 아니다. 그런 기능은 이미 많다. 진짜 질문은 Anthropic이 Claude를 **브라우저 안에서 행동하는 도구**로 바꾸고 있느냐는 것이다.
 

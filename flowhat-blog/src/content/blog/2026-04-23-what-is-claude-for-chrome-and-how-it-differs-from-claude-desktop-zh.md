@@ -2,7 +2,7 @@
 title: "Claude for Chrome 是什么？"
 description: "Claude for Chrome 不只是一个浏览器扩展。它更像是 Anthropic 把 Claude 推向浏览器代理的一步，让它能够在网页中读取、点击并执行动作。"
 pubDate: 2026-04-23
-updatedDate: 2026-04-23
+updatedDate: 2026-05-11
 lang: zh
 translationGroup: what-is-claude-for-chrome-and-how-it-differs-from-claude-desktop
 baseSlug: 2026-04-23-what-is-claude-for-chrome-and-how-it-differs-from-claude-desktop
@@ -21,6 +21,8 @@ heroImage: ../../assets/blog-placeholder-1.jpg
 但它真正的意义远不止于此。
 
 与其说它是一个帮你解释网页内容的工具，不如说它更接近一个**浏览器代理（browser agent）**：Anthropic 把 Claude 放进 Chrome 的侧边栏里，让它能够读取页面、点击按钮、跨标签页移动，并执行多步骤的网页任务。[1]
+
+因此，这篇文章也可以和 OpenAI 后来的 [Codex Chrome](/blog/2026-05-11-what-is-codex-chrome-openai-coding-agent-moves-into-browser/zh/) 一起读。Claude for Chrome 展示的是 assistant 进入浏览器，而 Codex Chrome 展示的是 coding/work agent 扩展到已登录的 Web 上下文。
 
 所以，围绕这个产品最重要的问题不是“它能不能总结网页”，因为很多工具都能做到这一点。真正的问题是：Anthropic 是否正在把 Claude 变成一个**能在浏览器里行动的系统**。
 

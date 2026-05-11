@@ -59,7 +59,7 @@ So the official story has two sides:
 
 ## How Codex Chrome compares with Claude for Chrome
 
-Codex Chrome arrives in the same broader category as **Claude for Chrome**, but the two products start from different centers.
+Codex Chrome arrives in the same broader category as [**Claude for Chrome**](/blog/2026-04-23-what-is-claude-for-chrome-and-how-it-differs-from-claude-desktop/), but the two products start from different centers.
 
 Claude for Chrome is Anthropic's attempt to put Claude inside the user's browser workflow. Claude can read pages, click, navigate websites, work across tabs, and help with multi-step browser tasks from Chrome's side panel.[2][3]
 
