@@ -1,3 +1,6 @@
+# Normalize ads.txt trailing-slash requests to the required root file.
+/ads.txt/ /ads.txt 301
+
 # Normalize localized blog URLs without trailing slash.
 # Keeps Googlebot and external links on the canonical /ko/ and /zh/ URLs.
 /blog/:slug/ko /blog/:slug/ko/ 301
